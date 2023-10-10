@@ -1,0 +1,110 @@
+Dependencies for Project 'ARM-M3 drivers', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (.\APP\main.c)(0x651DFBD9)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103CB-I./RTE/_Target_1-IC:/Users/LENOVO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/LENOVO/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
+I (APP\main.h)(0x65158761)
+I (APP\..\LIB\STD_TYPES.h)(0x650DB786)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63888F58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63888F58)
+I (APP\..\LIB\BIT_MATH.h)(0x65076F24)
+I (APP\..\LIB\Helper_Functions.h)(0x65076F36)
+I (APP\..\MCAL\GPIO\GPIO_Interface.h)(0x65076EF2)
+I (APP\..\MCAL\GPIO\..\..\LIB\STD_TYPES.h)(0x650DB786)
+I (APP\..\MCAL\RCC\RCC_interface.h)(0x650DF3E7)
+I (APP\..\MCAL\RCC\..\..\LIB\STD_TYPES.h)(0x650DB786)
+I (APP\..\MCAL\NVIC\NVIC_Interface.h)(0x65098E5C)
+I (APP\..\MCAL\NVIC\..\..\LIB\STD_TYPES.h)(0x650DB786)
+I (APP\..\MCAL\EXTI\EXTI_Interface.h)(0x650989CA)
+I (APP\..\MCAL\EXTI\..\..\LIB\STD_TYPES.h)(0x650DB786)
+I (APP\..\MCAL\AFIO\AFIO_Interface.h)(0x6502006F)
+I (APP\..\MCAL\AFIO\..\..\LIB\STD_TYPES.h)(0x650DB786)
+I (APP\..\MCAL\SYSTICK\SYSTICK_Interface.h)(0x6508A9A6)
+I (APP\..\MCAL\SYSTICK\..\..\LIB\STD_TYPES.h)(0x650DB786)
+F (.\APP\main.h)(0x65158761)()
+F (.\MCAL\RCC\RCC_App.c)(0x651587D0)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103CB-I./RTE/_Target_1-IC:/Users/LENOVO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/LENOVO/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/rcc_app.o -MD)
+I (MCAL\RCC\RCC_Config.h)(0x650DF0FB)
+I (MCAL\RCC\RCC_interface.h)(0x650DF3E7)
+I (MCAL\RCC\..\..\LIB\STD_TYPES.h)(0x650DB786)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63888F58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63888F58)
+I (MCAL\RCC\RCC_Private.h)(0x650E90BF)
+I (MCAL\RCC\..\..\LIB\BIT_MATH.h)(0x65076F24)
+F (.\MCAL\RCC\RCC_Config.h)(0x650DF0FB)()
+F (.\MCAL\RCC\RCC_interface.h)(0x650DF3E7)()
+F (.\MCAL\RCC\RCC_Private.h)(0x650E90BF)()
+F (.\MCAL\GPIO\GPIO_App.c)(0x65098F78)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103CB-I./RTE/_Target_1-IC:/Users/LENOVO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/LENOVO/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/gpio_app.o -MD)
+I (MCAL\GPIO\GPIO_Config.h)(0x64FE6279)
+I (MCAL\GPIO\GPIO_Interface.h)(0x65076EF2)
+I (MCAL\GPIO\..\..\LIB\STD_TYPES.h)(0x650DB786)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63888F58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63888F58)
+I (MCAL\GPIO\GPIO_Private.h)(0x64FF32BC)
+I (MCAL\GPIO\..\..\LIB\BIT_MATH.h)(0x65076F24)
+F (.\MCAL\GPIO\GPIO_Interface.h)(0x65076EF2)()
+F (.\MCAL\GPIO\GPIO_Private.h)(0x64FF32BC)()
+F (.\MCAL\GPIO\GPIO_Config.h)(0x64FE6279)()
+F (.\LIB\STD_TYPES.h)(0x650DB786)()
+F (.\LIB\BIT_MATH.h)(0x65076F24)()
+F (.\LIB\Helper_Functions.c)(0x6502014D)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103CB-I./RTE/_Target_1-IC:/Users/LENOVO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/LENOVO/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/helper_functions.o -MD)
+I (LIB\Helper_Functions.h)(0x65076F36)
+I (LIB\STD_TYPES.h)(0x650DB786)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63888F58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63888F58)
+I (LIB\BIT_MATH.h)(0x65076F24)
+F (.\LIB\Helper_Functions.h)(0x65076F36)()
+F (.\MCAL\NVIC\NVIC_App.c)(0x650D70C6)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103CB-I./RTE/_Target_1-IC:/Users/LENOVO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/LENOVO/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/nvic_app.o -MD)
+I (MCAL\NVIC\NVIC_Config.h)(0x65098EBD)
+I (MCAL\NVIC\NVIC_Interface.h)(0x65098E5C)
+I (MCAL\NVIC\..\..\LIB\STD_TYPES.h)(0x650DB786)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63888F58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63888F58)
+I (MCAL\NVIC\NVIC_Private.h)(0x650FFD97)
+I (MCAL\NVIC\..\..\LIB\BIT_MATH.h)(0x65076F24)
+F (.\MCAL\NVIC\NVIC_Private.h)(0x650FFD97)()
+F (.\MCAL\NVIC\NVIC_Interface.h)(0x65098E5C)()
+F (.\MCAL\NVIC\NVIC_Config.h)(0x65098EBD)()
+F (.\MCAL\EXTI\EXTI_App.c)(0x650AE9FE)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103CB-I./RTE/_Target_1-IC:/Users/LENOVO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/LENOVO/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/exti_app.o -MD)
+I (MCAL\EXTI\EXTI_Config.h)(0x6501B249)
+I (MCAL\EXTI\EXTI_Interface.h)(0x650989CA)
+I (MCAL\EXTI\..\..\LIB\STD_TYPES.h)(0x650DB786)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63888F58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63888F58)
+I (MCAL\EXTI\EXTI_Private.h)(0x650D717D)
+I (MCAL\EXTI\..\..\LIB\BIT_MATH.h)(0x65076F24)
+F (.\MCAL\EXTI\EXTI_Config.h)(0x6501B249)()
+F (.\MCAL\EXTI\EXTI_Interface.h)(0x650989CA)()
+F (.\MCAL\EXTI\EXTI_Private.h)(0x650D717D)()
+F (.\MCAL\AFIO\AFIO_App.c)(0x6507704C)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103CB-I./RTE/_Target_1-IC:/Users/LENOVO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/LENOVO/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/afio_app.o -MD)
+I (MCAL\AFIO\AFIO_Config.h)(0x6501E84C)
+I (MCAL\AFIO\AFIO_Interface.h)(0x6502006F)
+I (MCAL\AFIO\..\..\LIB\STD_TYPES.h)(0x650DB786)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63888F58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63888F58)
+I (MCAL\AFIO\AFIO_Private.h)(0x6501FFD4)
+I (MCAL\AFIO\..\..\LIB\BIT_MATH.h)(0x65076F24)
+I (MCAL\AFIO\..\GPIO\GPIO_Interface.h)(0x65076EF2)
+I (MCAL\AFIO\..\GPIO\..\..\LIB\STD_TYPES.h)(0x650DB786)
+F (.\MCAL\AFIO\AFIO_Config.h)(0x6501E84C)()
+F (.\MCAL\AFIO\AFIO_Interface.h)(0x6502006F)()
+F (.\MCAL\AFIO\AFIO_Private.h)(0x6501FFD4)()
+F (.\MCAL\SYSTICK\SYSTICK_App.c)(0x650B4195)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103CB-I./RTE/_Target_1-IC:/Users/LENOVO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/LENOVO/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/systick_app.o -MD)
+I (MCAL\SYSTICK\SYSTICK_Config.h)(0x65079BD2)
+I (MCAL\SYSTICK\SYSTICK_Interface.h)(0x6508A9A6)
+I (MCAL\SYSTICK\..\..\LIB\STD_TYPES.h)(0x650DB786)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63888F58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63888F58)
+I (MCAL\SYSTICK\SYSTICK_Private.h)(0x6508A6FD)
+I (MCAL\SYSTICK\..\..\LIB\BIT_MATH.h)(0x65076F24)
+F (.\MCAL\SYSTICK\SYSTICK_Config.h)(0x65079BD2)()
+F (.\MCAL\SYSTICK\SYSTICK_Interface.h)(0x6508A9A6)()
+F (.\MCAL\SYSTICK\SYSTICK_Private.h)(0x6508A6FD)()
+F (RTE/Device/STM32F103CB/RTE_Device.h)(0x65098FBB)()
+F (RTE/Device/STM32F103CB/startup_stm32f10x_md.s)(0x65098FED)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103CB-I./RTE/_Target_1-IC:/Users/LENOVO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/LENOVO/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE/Device/STM32F103CB/system_stm32f10x.c)(0x650832C5)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103CB-I./RTE/_Target_1-IC:/Users/LENOVO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/LENOVO/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MD)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61ADBFAE)
+I (RTE\_Target_1\RTE_Components.h)(0x64FE4F05)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F831E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63888F58)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\LENOVO\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61ADBFAE)

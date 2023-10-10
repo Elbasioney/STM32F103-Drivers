@@ -1,0 +1,14 @@
+#ifndef _NVIC_CONFIG_H_
+#define _NVIC_CONFIG_H_
+
+
+#define NVIC_4GROUP_0SUBGROUP  0x05FA0300  
+#define NVIC_3GROUP_1SUBGROUP  0x05FA0400
+#define NVIC_2GROUP_2SUBGROUP  0x05FA0500
+#define NVIC_1GROUP_3SUBGROUP  0x05FA0600
+#define NVIC_0GROUP_4SUBGROUP  0x05FA0700
+/*  Set your number of group and sub-group bits */
+#define   NVIC_SCB_GROUP_CFG     NVIC_2GROUP_2SUBGROUP
+
+
+#endif 

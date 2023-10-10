@@ -1,0 +1,20 @@
+#ifndef _EXTI_CONFIG_H_
+#define _EXTI_CONFIG_H_
+
+
+
+#define EXTI_LINE  LINE0      /* LINE0 : LINE15 */
+
+/* EXTI_RISING_EDGE , EXTI_FALLING_EDGE , EXTI_ON_CHANGE */
+#define EXTI_TRIGGER_MODE  EXTI_RISING_EDGE
+
+
+
+
+
+
+
+
+
+
+#endif 
